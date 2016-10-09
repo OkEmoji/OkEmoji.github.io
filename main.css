@@ -1,0 +1,78 @@
+body {
+      background-color: #FF7C85;
+}
+
+.banner {
+       position: absolute;
+       top: 0;
+       left: 0;
+       background-color: #ABFFCF;
+       width: 100vw;
+       box-shadow: 0vw 1vw 0.5vw #7F4764;
+       text-align: center;
+}
+
+.banner-content {
+       width: 98vw;
+       margin: 0 auto;
+       padding: 1vw;
+       font-family: Helvetica, sans-serif;
+       color: #FF7C85;
+       font-size: 2.8vw;
+}
+
+.banner-content img {
+        height: 2.8vw;
+        width: 2.8vw;
+        margin: 0 auto;
+}
+
+
+.banner-content img[src = "ok.svg"] {
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+        height: 6vw;
+        width: 6vw;
+        margin: 0 auto;
+        float: left;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-bottom: 1vw;
+}
+
+#emoji-dashboard {
+      z-index: -1;
+      position: absolute;
+      top: 9.5vw;
+      left: 0;
+      width: 100vw;
+      background-color: #FF7C85;
+      height: calc(95.5vh - 8vw);
+}
+
+#bottom-banner {
+      z-index: -1;
+      position: absolute;
+      top: 97vh;
+      left: 0;
+      width: 100vw;
+      background-color: #FF7C85;
+      height: 3vh;
+      text-align: center;
+      color: white;
+      font-size: 2vh;
+}
+
+#bottom-banner img {
+  height: 2vh;
+  width: 2vh;
+  margin: 0 auto;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+.emoji-container img {
+  height: 3vw;
+  width: 3vw;
+}
